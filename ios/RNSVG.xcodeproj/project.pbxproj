@@ -826,6 +826,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+ 				HEADER_SEARCH_PATHS = (
+                                        "../../react-native/React/**",
+                                        "../../react-native/ReactCommon/**",
+                                );
 				PRODUCT_NAME = RNSVG;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/;
 				SKIP_INSTALL = YES;
@@ -836,6 +840,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+                                HEADER_SEARCH_PATHS = (
+                                        "../../react-native/React/**",
+                                        "../../react-native/ReactCommon/**",
+                                );
 				PRODUCT_NAME = RNSVG;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/;
 				SKIP_INSTALL = YES;
